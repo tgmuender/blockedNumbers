@@ -1,0 +1,2 @@
+# blockedNumbers
+Servers blocked numbers
