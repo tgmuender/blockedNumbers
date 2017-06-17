@@ -1,4 +1,4 @@
-package company.com;
+package ch.hosenruck;
 
 import com.google.gson.JsonObject;
 import io.netty.buffer.ByteBuf;

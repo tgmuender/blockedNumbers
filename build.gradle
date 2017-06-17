@@ -2,8 +2,8 @@ plugins {
     id "com.github.johnrengelman.shadow" version "2.0.0"
 }
 
-group 'org.gmuender'
-version '1.0-SNAPSHOT'
+group 'ch.hosenruck'
+version '1.0.0-SNAPSHOT'
 
 apply plugin: 'java'
 
@@ -22,6 +22,6 @@ dependencies {
 
 shadowJar() {
     manifest {
-        attributes 'Main-Class': 'company.com.Main'
+        attributes 'Main-Class': 'ch.hosenruck.Main'
     }
 }
